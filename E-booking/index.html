@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>E-Booking</title>
+    <link link rel="icon" type="image/png" href="src/logo1.png" />
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="cont">
+        <a href="index.html"><img src="src/logo.png" /></a>
+
+        <div class="menu">
+          <a href="form.html" >Book</a>
+          <a href="login.html">Login In</a>
+          <button class="btn" ><a class="a" href="signup.html" >Sign Up</a></button>
+          
+        </div>
+      </div>
+    </nav>
+
+    <article>
+      
+       
+<section >
+  <div class="hold" ><h1> Access a library of free design resources</h1>
+<p>The best resources and books from around the web, collected and curated for your reading. </p>
+<button><a>Get Access Now</a></button></div>
+
+<div class="img" ><img src="https://assets.website-files.com/62aee78456e4207786ac4d18/62aeefb7ef1a0b764b386779_Design%20Resources%20Home.svg"></div>
+      </section>
+      
+
+
+
+
+    </article>
+    <div class="all">
+      <h2>Featured</h2>
+    <div class="f">
+<img src="src/f1.png">
+<img src="src/f2.png">
+<img src="src/f3.png">    
+    </div></div>
+    <div class="foot">
+      <div class="contfo animate__animated " id="ani" onscroll="s()">
+      <h1>Get more great resources</h1>
+      <p> Get the latest  deals from across the world. Straight to your inbox
+      </p>
+      <input placeholder="Entrer your email" >
+      <button ><a>Subscribe</a></button>
+    </div>
+    </div>
+    <footer>
+      <div class="right">
+        <div class="info">
+         <img src="src/logo.png">
+        <p>Built by Fakhri haj mbarek.<br>
+          Powered by ME.<br><br>
+          
+          © 2023 E-booking. All Rights Reserved.</p></div>
+      
+      <div class="links">
+        <h2>ABOUT</h2>
+        <a href="https://www.facebook.com/hajmbarek.fakkreddine" target="new">Facebook</a>
+        <a href="https://www.linkedin.com/in/fakhri-haj-mbarek-52316218b/" target="new">linkdin </a>
+        <a href="https://github.com/fakkreddine"target="new">github</a>
+      </div>
+      <div class="links">
+        <h2>WEBSITE</h2>
+        <a >home</a>
+        <a>login </a>
+        <a>sign up</a>
+      </div>
+
+    </div>
+
+    </footer>
+    <script src="js/index.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+      //your firebase api key
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
